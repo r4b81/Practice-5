@@ -1,0 +1,103 @@
+$primary: #3292a6;
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background: #ffffffa2 !important;
+    box-shadow: 2px 2px 5px $primary;
+    .nav-link{
+        font-size: 1.4rem;
+        color: #252525 !important;
+        &:hover{
+            color: $primary !important;
+        }
+    }
+}
+.banner{
+    background: url(../img/mountains.jpg) no-repeat;
+    background-attachment: fixed;
+    .overlay{
+        background: #3293a68c;
+    }
+}
+#subscribe{
+    background: #252525;
+    .btn{
+        background-color: $primary;
+        color: #ffffff;
+        &:hover{
+            background-color: #277888;
+        }
+    }
+}
+#boxes{
+    .card-color{
+        border: 2px solid $primary;
+        h4{
+            color: $primary;
+        }
+    }
+    .card-bg-color{
+        background-color: $primary;
+        h4{
+            color: #ffffff;
+        }
+        p{
+            color: #ffffff;
+        }
+    }
+}
+#wtb{
+    .display-4{
+        color: $primary;
+    }
+}
+#mta-section{
+    .display-4{
+        color: $primary;
+    }
+    .card{
+        img{
+            margin-top: -55px;
+        }
+        .fab{
+            color: $primary;
+            font-size: 1.5rem;
+        }
+        &:hover{
+            background: $primary;
+            .card-title{
+                color: #ffffff;
+            }
+            .card-text{
+                color: #ffffff;
+            }
+            .fab{
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+#contact-section{
+    .btn-block{
+        background: $primary;
+        color: #ffffff;
+    }
+}
+footer{
+    background: $primary;
+}
+
+
+@media (max-width: 767px){
+    .navbar{
+        .nav-link{
+            font-size: 2rem;
+            color: #000000;
+            font-weight: 600;
+        }
+    }
+}
